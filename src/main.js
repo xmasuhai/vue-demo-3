@@ -23,6 +23,11 @@ new Vue({
   render: h => h(WatchDeep)
 }).$mount('#watchDeep')
 
+import WatchOfficialExample from './components/WatchOfficialExample.vue'
+new Vue({
+  render: h => h(WatchOfficialExample)
+}).$mount('#watchOfficialExample')
+
 /*
 const vmWatchDeep = new Vue({
   template: `
