@@ -1,6 +1,6 @@
 <template>
 <div>
-  <h2>watch文档实示例</h2>
+  <h2>watch文档示例</h2>
   a: {{a}}
   <hr>
   b: {{b}} 无缓存 数据不变不触发回调
